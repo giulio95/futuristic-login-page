@@ -1,7 +1,9 @@
 
-function PresetProfile(password){
-	if(password=="giulio")
+function PresetProfile(psw){
+	if(psw=="giulio"){
 		window.location.href='pag1.html';
-	else
+	}
+	else{
 		alert('Soooca');
+	}
 }
