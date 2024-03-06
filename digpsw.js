@@ -10,7 +10,11 @@ const hashValue = psw =>
         hexes.push(('00000000' + view.getUint32(i).toString(16)).slice(-8));
       return hexes.join('');
     });
-
+	
+hashValue(
+  JSON.stringify({ a: 'a', b: [1, 2, 3, 4], foo: { c: 'bar' } })
+).then(console.log);
+	
 	alert(hashValue);
 
 	if(hashValue=="e1fc45f7880e0505ff0b6a079b9af149f225e260f59b1d20225357a8cce8ffd8"){
