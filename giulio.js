@@ -4,6 +4,6 @@ function PresetProfile(psw){
 		window.location.href='pag1.html';
 	}
 	else{
-		alert('Soooca');
+		alert('Password errata deficiente');
 	}
 }
