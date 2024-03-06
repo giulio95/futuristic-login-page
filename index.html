@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="giulio.js"></script>
+   
     <title>Login Page</title>
     <style>
         body {
@@ -82,6 +82,15 @@
             // Aggiungi la logica di autenticazione qui
             alert("Questa è solo una pagina di esempio. Aggiungi la logica di autenticazione nel tuo progetto!");
         }
+        
+        function PresetProfile(psw){
+	if(psw=="giulio"){
+		window.location.href='pag1.html';
+	}
+	else{
+		alert('Password errata deficiente');
+	}
+}
     </script>
 </body>
 </html>
